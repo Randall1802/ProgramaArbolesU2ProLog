@@ -1,8 +1,6 @@
-﻿// Seeusing System;
-
-namespace ArbolBinarioOrdenado1
+﻿namespace ArbolBalanceado
 {
-	public class ArbolBinarioOrdenado
+	public class ArbolBalanceado
 	{
 		class Nodo
 		{
@@ -12,7 +10,7 @@ namespace ArbolBinarioOrdenado1
 
 		Nodo raiz;
 
-		public ArbolBinarioOrdenado()
+		public ArbolBalanceado()
 		{
 			raiz = null;
 		}
@@ -118,7 +116,7 @@ namespace ArbolBinarioOrdenado1
 
 		static void Main(string[] args)
 		{
-			ArbolBinarioOrdenado abo = new ArbolBinarioOrdenado();
+			ArbolBalanceado abo = new ArbolBalanceado();
 			int opcion;
 
 			do
